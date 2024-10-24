@@ -1,0 +1,29 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "khoa hoc nodejs express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toandng/twos_blog.git"
+  },
+  "author": "toanducng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toandng/twos_blog/issues"
+  },
+  "homepage": "https://github.com/toandng/twos_blog#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
